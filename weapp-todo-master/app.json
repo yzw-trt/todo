@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/todo/index",
+    "pages/todo/create",
+    "pages/class/index",
+    "pages/note/index",
+    "pages/note/create",
+    "pages/me/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#6482DD",
+    "navigationBarTitleText": "Todo List",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#6482DD",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [{
+        "pagePath": "pages/todo/index",
+        "text": "任务",
+        "iconPath": "/assets/img/icon-todo.png",
+        "selectedIconPath": "/assets/img/icon-todo-active.png"
+      },{
+        "pagePath": "pages/class/index",
+        "text": "课表",
+        "iconPath": "/assets/img/icon-class.png",
+        "selectedIconPath": "/assets/img/icon-class-active.png"
+      },{
+        "pagePath": "pages/me/index",
+        "text": "我",
+        "iconPath": "/assets/img/icon-user.png",
+        "selectedIconPath": "/assets/img/icon-user-active.png"
+      }]
+  }
+}
